@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio Fikko</title>
+</head>
+<body>
+    <nav id="nav">
+        <div class="logo">Fikko.</div>
+        <div class="menu">
+            <a href="index.html" class="menuActive">Home</a>
+            <a href="work.html" class="menuNonActive">Work Experice</a>
+            <a href="project.html" class="menuNonActive">Project</a>
+            <a href="certificate.html" class="menuNonActive">Certificate</a>
+            <a href="contact.html" class="menuNonActive">Contact</a>
+        </div>
+    </nav>
+
+    <img src="src/Transparant.png" alt="" width="35%" class="fotoku">
+
+    <div class="porto">
+        <h1>PORTOFOLIO</h1>
+        <h2>FIKKO MUHARAVID YOGA MARDHANY</h2>
+    </div>
+
+    <div class="container">
+        <h6>Full-Stack Developer | Data Analyst | <br>
+            UI/UX Design | System Analyst | Graphic Design</h6>
+
+        <a href="mailto:fikkomuharavid.21004@mhs.unesa.ac.id"><button>Hire Me</button></a>
+        <a href="https://wa.me/6282144303344"><button style="margin-left: 2%;">Lets Talk</button></a>
+    </div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            var nav = document.getElementById('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });             
+    </script>
+</body>
+
+
+</html>

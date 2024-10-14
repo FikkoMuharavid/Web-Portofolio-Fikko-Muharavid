@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio Fikko</title>
+</head>
+<body>
+    <nav id="nav">
+        <div class="logo">Fikko.</div>
+        <div class="menu">
+            <a href="index.html" class="menuNonActive">Home</a>
+            <a href="work.html" class="menuNonActive">Work Experice</a>
+            <a href="project.html" class="menuNonActive">Project</a>
+            <a href="certificate.html" class="menuActive">Certificate</a>
+            <a href="contact.html" class="menuNonActive">Contact</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>CERTIFICATE</h1>
+    </header>
+
+    <div class="shape">
+        <div class="headerShape">
+            <div class="containerShape">
+                <h2>CERTIFICATE WEB DEVELOPMENT</h2>
+                <h3>My Skill</h3>
+            </div>
+        </div>
+
+        <div class="containerShape cFlex">
+            <div class="left">
+                <img src="src/SertifWeb.png" alt="" width="100%">
+            </div>
+
+            <div class="right">
+                <p>Saya memperoleh sertifikat ini setelah menyelesaikan program intensif di MySkill, yang mencakup 8 topik utama dan 123 materi. Selama kursus ini, saya mendalami berbagai aspek, mulai dari pengelolaan kode dengan Git dan GitHub, hingga penguasaan dalam HTML, CSS, JavaScript, React, VueJS, serta Golang.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="shape">
+        <div class="headerShape">
+            <div class="containerShape">
+                <h2>CERTIFICATE UI-UX RESEARCH AND DESIGN</h2>
+                <h3>My Skill</h3>
+            </div>
+        </div>
+
+        <div class="containerShape cFlex">
+            <div class="left">
+                <img src="src/SertifUIUX.png" alt="" width="100%">
+            </div>
+
+            <div class="right">
+                <p>Saya menerima sertifikat “UI-UX Research and Design” setelah menyelesaikan program intensif di MySkill. Kursus ini membahas 5 topik utama dan didalamnya ada 77 materi, memberikan landasan kuat dalam desain UI-UX. Saya menggali pengetahuan mendalam tentang penggunaan Figma dalam desain, memahami prinsip-prinsip penting di balik User Experience Design, User Experience Research, User Interface Design, dan juga mendalami seni UX Writing.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        window.addEventListener('scroll', function() {
+            var nav = document.getElementById('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });             
+    </script>
+</body>
+
+
+</html>

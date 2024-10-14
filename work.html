@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio Fikko</title>
+</head>
+<body>
+    <nav id="nav">
+        <div class="logo">Fikko.</div>
+        <div class="menu">
+            <a href="index.html" class="menuNonActive">Home</a>
+            <a href="work.html" class="menuActive">Work Experice</a>
+            <a href="project.html" class="menuNonActive">Project</a>
+            <a href="certificate.html" class="menuNonActive">Certificate</a>
+            <a href="contact.html" class="menuNonActive">Contact</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>WORK EXPERIENCE</h1>
+    </header>
+
+    <div class="shape">
+        <div class="headerShape">
+            <div class="containerShape">
+                <h2>Co-Owner</h2>
+                <h3>BGL BAN</h3>
+            </div>
+        </div>
+
+        <div class="containerShape cFlex">
+            <div class="left">
+                <img src="src/LogoBGL.png" alt="" width="100%"><br><br>
+                <p>BGL Ban merupakan sebuah bengkel yang melayani jual beli berbagai ban dan velg.</p>
+            </div>
+
+            <div class="right">
+                <p>Sebagai co-owner, saya berkontribusi pada penanganan IT, pengembangan strategi bisnis, manajemen stok, dan meningkatkan pengalaman pelanggan di bengkel kami. <br><br>
+
+                Saya mengimplementasikan sebuah website yang terintegrasi dengan sistem Enterprise Resource Planning (ERP) yang canggih. Website ini tidak hanya menjadi wajah digital dari bengkel kami, tetapi juga merupakan platform yang efisien untuk manajemen penjualan, inventory, event, invoice, dan layanan pelanggan.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="shape">
+        <div class="headerShape">
+            <div class="containerShape">
+                <h2>INTERNSHIP EXPERIENCE</h2>
+                <h3>FULL STACK DEVELOPER - DISPENDUKCAPIL SURABAYA</h3>
+            </div>
+        </div>
+
+        <div class="containerShape cFlex">
+            <div class="left">
+                <img src="src/LogoDukcapil.png" alt="" width="100%"><br><br>
+                <p>Magang MSIB di Dispendukcapil Kota Surabaya pada posisi Pengembangan Aplikasi Layanan Pengaduan.</p>
+            </div>
+
+            <div class="right">
+                <p>Sebagai Full-Stack Developer di Dispendukcapil Surabaya, saya mengembangkan aplikasi Omnichannel yang mencakup aspek Front-End dan Back-End. Aplikasi ini dirancang untuk mengintegrasikan berbagai platform media sosial ke dalam satu aplikasi, memungkinkan pengguna untuk mengelola dan membalas pesan semua sosmed hanya dengan satu aplikasi saja. <br><br>
+
+                Selain itu, saya berpartisipasi dalam acara Ramadhan Vaganza, membantu warga Surabaya dan non-Surabaya dalam pengaktivasian IKD, yang memperkaya pengalaman saya dalam pelayanan publik.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            var nav = document.getElementById('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });             
+    </script>
+</body>
+
+
+</html>
